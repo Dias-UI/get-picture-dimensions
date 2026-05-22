@@ -1,3 +1,18 @@
+"""
+Image Dimensions Viewer
+UI to scan a folder and display the resolution
+(width × height) of all image files inside.
+
+Features:
+- Folder picker dialog
+- Supports JPG, PNG, GIF, BMP
+- Dark themed interface
+- Displays dimensions in a scrollable text box
+
+Useful for quickly checking image sizes before uploads,
+batch processing, or asset organization.
+"""
+
 import os
 import tkinter as tk
 from tkinter import filedialog, messagebox
